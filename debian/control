@@ -1,0 +1,12 @@
+Source: ros-minimalist-geneus
+Section: misc
+Priority: extra
+Maintainer: Kei Okada <k-okada@jsk.t.u-tokyo.ac.jp>
+Build-Depends: debhelper (>= 9.0.0), ros-minimalist-catkin (>= 0.5.78), ros-minimalist-genmsg
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-minimalist-geneus
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-minimalist-genmsg
+Description: EusLisp ROS message and service generators.
